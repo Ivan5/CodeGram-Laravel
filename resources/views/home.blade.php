@@ -14,13 +14,13 @@
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
             <div class="pt-4 font-weight-bold">
-                {{ $user->name }}
+                {{ $user->profile->title }}
             </div>
             <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus illum molestias praesentium officia excepturi ipsa hic iusto nobis totam quisquam repudiandae dolorem cum, consequatur id omnis suscipit incidunt eos? Voluptatibus.
+                {{$user->profile->description}}
             </div>
             <div>
-                <a href="#">codeGram.com</a>
+                <a href="#">{{$user->profile->url ?? 'N/A'}}</a>
             </div>
         </div>
     </div>
