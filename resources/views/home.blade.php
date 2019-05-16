@@ -7,14 +7,14 @@
             <img src="https://scontent-qro1-1.cdninstagram.com/vp/5598b0ada442dbc48868501b68e2afa8/5D594055/t51.2885-19/s150x150/39613316_2121937551361031_2807744821475672064_n.jpg?_nc_ht=scontent-qro1-1.cdninstagram.com" alt="" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-        <div><h1>{{Auth::user()->username}}</h1></div>
+        <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>1153</strong> posts</div>
                 <div class="pr-5"><strong>23k</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
             <div class="pt-4 font-weight-bold">
-                {{Auth::user()->name}}
+                {{ $user->name }}
             </div>
             <div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus illum molestias praesentium officia excepturi ipsa hic iusto nobis totam quisquam repudiandae dolorem cum, consequatur id omnis suscipit incidunt eos? Voluptatibus.
